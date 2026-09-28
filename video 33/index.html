@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Multi Color Navbar</title>
+
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Navbar */
+    nav{
+        display: flex;
+        justify-content: center;
+        background-color: #222;
+    }
+
+    nav ul{
+        list-style: none;
+        display: flex;
+    }
+
+    nav ul li{
+        padding: 20px 30px;
+    }
+
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    /* Different Colors */
+    .home{
+        background-color: #ff4757;
+    }
+
+    .about{
+        background-color: #1e90ff;
+    }
+
+    .services{
+        background-color: #2ed573;
+    }
+
+    .gallery{
+        background-color: #ffa502;
+    }
+
+    .contact{
+        background-color: #a55eea;
+    }
+
+    nav ul li:hover{
+        opacity: 0.8;
+        transition: 0.3s;
+    }
+
+    /* Content */
+    .content{
+        text-align: center;
+        padding: 100px 20px;
+    }
+
+    h1{
+        color: #333;
+        margin-bottom: 20px;
+    }
+</style>
+</head>
+<body>
+
+<nav>
+    <ul>
+        <li class="home"><a href="#">Home</a></li>
+        <li class="about"><a href="#">About</a></li>
+        <li class="services"><a href="#">Services</a></li>
+        <li class="gallery"><a href="#">Gallery</a></li>
+        <li class="contact"><a href="#">Contact</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <h1>Multi Color Navbar Website</h1>
+    <p>This website uses only HTML and CSS.</p>
+</div>
+
+</body>
+</html>
